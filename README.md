@@ -2,7 +2,7 @@
 
 A Tampermonkey script to copy single testcase on [Codeforces](https://codeforces.com/).
 
-Just double click one of the multiple testcases to copy it, without any dialogs.
+Just double click one of the multiple testcases to copy it.
 
 ## Installation
 

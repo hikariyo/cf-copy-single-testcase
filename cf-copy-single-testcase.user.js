@@ -16,12 +16,14 @@
     'use strict';
     $('.test-example-line').dblclick(function(){
         $(this).attr('class').split(' ').forEach(cls => {
-            if (!/^test-example-line-(\d+)$/.test(cls)) return;
+            const match = cls.match(/^test-example-line-(\d+)$/);
+            if (!match) return;
+            const num = match[1];
             const text = '1\n' + $('.' + cls).map(function(){
                 return $(this).text().trim();
             }).get().join('\n');
             GM_setClipboard(text);
-            console.log('Copied', text);
+            Codeforces.showMessage(`Testcase ${num} has been copied into the clipboard`);
         });
     });
 })();
