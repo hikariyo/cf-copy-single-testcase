@@ -6,6 +6,8 @@
 // @author       hikariyo
 // @match        https://codeforces.com/contest/*/problem/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=codeforces.com
+// @updateURL    https://raw.githubusercontent.com/hikariyo/cf-copy-single-testcase/refs/heads/master/cf-copy-single-testcase.user.js
+// @downloadURL  https://raw.githubusercontent.com/hikariyo/cf-copy-single-testcase/refs/heads/master/cf-copy-single-testcase.user.js
 // @license      MIT
 // @grant        GM_setClipboard
 // ==/UserScript==
