@@ -6,12 +6,12 @@
 // @author       hikariyo
 // @match        https://codeforces.com/contest/*/problem/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=codeforces.com
+// @license      MIT
 // @grant        GM_setClipboard
 // ==/UserScript==
 
 (function() {
     'use strict';
-    // Your code here...
     $('.test-example-line').dblclick(function(){
         $(this).attr('class').split(' ').forEach(cls => {
             if (!/^test-example-line-(\d+)$/.test(cls)) return;
