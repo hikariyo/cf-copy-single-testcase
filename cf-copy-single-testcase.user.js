@@ -5,6 +5,7 @@
 // @description  Copy single testcase on codeforces.
 // @author       hikariyo
 // @match        https://codeforces.com/contest/*/problem/*
+// @match        https://codeforces.com/gym/*/problem/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=codeforces.com
 // @updateURL    https://raw.githubusercontent.com/hikariyo/cf-copy-single-testcase/refs/heads/master/cf-copy-single-testcase.user.js
 // @downloadURL  https://raw.githubusercontent.com/hikariyo/cf-copy-single-testcase/refs/heads/master/cf-copy-single-testcase.user.js
