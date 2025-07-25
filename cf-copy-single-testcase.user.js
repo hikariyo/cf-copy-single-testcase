@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Codeforces Copy Single Testcase
-// @namespace    http://tampermonkey.net/
-// @version      2025-07-24
+// @namespace    https://github.com/hikariyo/cf-copy-single-testcase
+// @version      1.0.0
 // @description  Copy single testcase on codeforces.
 // @author       hikariyo
 // @match        https://codeforces.com/contest/*/problem/*
